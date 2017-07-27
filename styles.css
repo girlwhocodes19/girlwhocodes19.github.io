@@ -3,51 +3,24 @@ h1 {
   font-family:fantasy;
 }
 
-.container{
-    width:900px;
-    margin: 0 auto;
-    overflow:hidden;
+.bmenu li a{
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
-.main-section{
-    background-color:#CDEBC4;
-    color:#6D8B64;
-    width:520px;
-    float:left;
-    height:500px;
+.bmenu:hover li a{
+	text-shadow: 0px 0px 5px #0d1a3a;
 }
-
-.sidebar{
-    background-color:#ccc;
-    width:350px;
-    float:right;
-    height:400px;
-}
-
-.container p{
-    padding-top:100px;
-    text-align:center;
-}
-
-.note{
-    text-align:center;
-    padding-top:60px;
-    font-style:italic;
-}
-
-/* This simple media query makes the column layout
-   linear on smaller screens */
-
-@media (max-width:900px){
-
-    .container{
-        width:100%;
-    }
-
-    .main-section, .sidebar{
-        width:auto;
-        margin-bottom:20px;
-        float:none;
-    }
-
+.bmenu li a:hover{
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
 }
