@@ -1,11 +1,13 @@
 h1 {
   color: #DAAD86;
   font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
 
 p.serif {
   color: #DAAD86;
   font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
 
 .bmenu li a{
